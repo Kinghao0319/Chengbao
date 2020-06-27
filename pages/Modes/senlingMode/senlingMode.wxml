@@ -1,0 +1,75 @@
+<view class="c_tab"></view>
+<view class="c_tab"></view>
+<view  class='storyModeChoice' style="background-image:url({{img}});background-size:100% 100%;" plain="true" bindtap="haiyangQuiz">
+  <view class="story">故事背景：程橙狐和爸爸离开了海洋，来到了幽静的森林王国。王国里有许多发着光芒的萤火虫，程橙狐又跑又跳地追着它们，萤火虫提着小灯引着程橙狐不断深入森林，当他回过神来时，发现自己迷路了。程橙狐难过的大声喊爸爸，但是没有人回应他。你能帮助迷路的程橙狐找到爸爸吗？</view>
+</view>
+ 
+<view class="c_tab"></view>
+<view class="c_tab"></view>
+<view class="row pad_top">
+  <button hover-class='button-hover' class='small_blue easy' bindtap="quiz1">
+    <view class="colunm">
+      <view class="stage">第一关</view>
+      <view class="c_tab"></view>
+      <view class="row view-center">
+        <view class="level">难度：</view>
+        <view class="level difficulty">■</view>
+      </view>
+    </view>
+  </button>
+   <button hover-class='button-hover' class='small_blue easy' bindtap="quiz3">
+    <view class="colunm">
+      <view class="stage">第二关</view>
+      <view class="c_tab"></view>
+      <view class="row view-center">
+        <view class="level">难度：</view>
+        <view class="level difficulty">■ ■</view>
+      </view>
+    </view>
+  </button>
+</view>
+<view class="row pad_top">
+  <button hover-class='button-hover' class='small_blue normal'>
+    <view class="colunm">
+      <view class="stage">第三关</view>
+      <view class="c_tab"></view>
+      <view class="row view-center">
+        <view class="level">难度：</view>
+        <view class="level difficulty">■ ■ ■</view>
+      </view>
+    </view>
+  </button>
+  <button hover-class='button-hover' class='small_blue normal'>
+    <view class="colunm">
+      <view class="stage">第四关</view>
+      <view class="c_tab"></view>
+      <view class="row view-center">
+        <view class="level">难度：</view>
+        <view class="level difficulty">■ ■ ■</view>
+      </view>
+    </view>
+  </button>
+</view>
+<view class="row pad_top">
+  <button hover-class='button-hover' class='small_blue hard'>
+    <view class="colunm">
+      <view class="stage">第五关</view>
+      <view class="c_tab"></view>
+      <view class="row view-center">
+        <view class="level">难度：</view>
+        <view class="level difficulty">■ ■ ■ ■</view>
+      </view>
+    </view>
+  </button>
+  <button hover-class='button-hover' class='small_blue hard' bindtap="quiz2">
+    <view class="colunm">
+      <view class="stage">第六关</view>
+      <view class="c_tab"></view>
+      <view class="row view-center">
+        <view class="level">难度：</view>
+        <view class="level difficulty">■ ■ ■ ■ ■</view>
+      </view>
+    </view>
+  </button>
+</view>
+

@@ -1,0 +1,78 @@
+<view class="c_tab"></view>
+<view class="c_tab"></view>
+<view class="c_tab"></view>
+<view class="title">　呼叫程橙狐</view>
+<view class="container">
+  <view class="dd">
+    <view class="tr" wx:for="{{3}}" wx:for-item="i" wx:key="*this">
+      <view class="td {{(i==start_i&&j==start_j)?'Start':'Map'}} {{(i==end_i&&j==end_j)?'End':'Map'}} {{(i==wayPoint_i&&j==wayPoint_j)?'WayPoint':'Map'}}" wx:for="{{3}}" wx:for-item="j" wx:key="*this" id="{{i}},{{j}}" bindtap="{{mapSet}}"></view>
+    </view>
+  </view>
+</view>
+<view class="container-left">
+  <view class="row">
+    <view class="row view-center">
+      <view class="Start pointBlock"></view>
+      <view class="text-center">起点　</view>
+    </view>
+    <view class="row view-center">
+      <view class="End pointBlock"></view>
+      <view class="text-center">宝箱　</view>
+    </view>
+
+  </view>
+
+  <view>
+    <view class="blank"></view>
+    <view class="story">
+      　　森布拉森城堡里住着一只小狐狸，大伙儿叫他程橙狐，一身活力四射的橙色皮毛让他看起来精气神十足。所有人都知道，他有一辆很酷的小车，是狐爷爷为他亲手打造的。程橙狐聪慧机敏爱探险，两岁零一天的时候就和爸爸出发一起勇闯天涯四处探险，他看过平静湖泊，看过汹涌海浪，他在丛林里看猴子们在藤蔓
+间荡来荡去，在极寒的山洞里和小熊一起等极光......</view>
+  <view class="story">
+　　三个月前，他们探险结束回了家。今天是程橙狐三岁生日，本以为会是热热闹闹的一天，谁知道狐爸爸和狐妈妈一大清早就悄悄地出了门，也不告诉程橙狐他们去了哪儿。程橙狐苦着脸在车库里擦那辆小车，一遍、两遍、三遍......“程橙狐，开上你的小车快来快来，有好东西给你！”爸爸用呼呼机在远处唤他。爸爸很久没有叫他大名了，语气里还有一丝神秘，会是什么惊喜呀？程橙狐腿一蹬跳上了小车，出发！</view>
+<view class="story hint" >
+ <view class="blank"></view>
+</view>
+  <view class="story hint">
+  提示：开动小车，向宝箱前进吧。
+  </view>
+  </view>
+  <view class="blank"></view>
+  <view class="row-center">
+    <view class="divLine"></view>
+  </view>
+  <view class="blank"></view>
+</view>
+<!-- 小车上面按一下run按钮，开始侦听特征值 -->
+<!-- 点下面这个按钮表示特征值侦听完毕，跳转到record界面 -->
+<button class="RunBtn" bindtap="goRecord1">
+  <view class="row">
+    <view class="c2">单</view>
+    <view class="c2">人</view>
+    <view class="c2">游</view>
+    <view class="c2">戏</view>
+  </view>
+</button>
+<button class="RunBtn" bindtap="goRecord2">
+  <view class="row">
+    <view class="c1">双</view>
+    <view class="c1">人</view>
+    <view class="c1">游</view>
+    <view class="c1">戏</view>
+  </view>
+</button>
+<button class="RunBtn" bindtap="goSuccess">
+  <view class="row">
+    <view class="c2">完</view>
+    <view class="c3">成</view>
+    <view class="c1">啦</view>
+  </view>
+</button>
+<button class="RunBtn" bindtap="goFail">
+  <view class="row">
+    <view class="c3">未</view>
+    <view class="c1">完</view>
+    <view class="c2">成</view>
+  </view>
+</button>
+
+<view class="c_tab"></view>

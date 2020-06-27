@@ -1,0 +1,12 @@
+<view class="c_tab"></view>
+<button  class='stpryModeChoice' style="background-image:url({{img_haiyang}});background-size:100% 100%;" plain="true" bindtap="haiyangQuiz">
+  <view class='stpryModeChoicePart'>蔚蓝海洋</view>
+</button>
+<button  class='stpryModeChoice' style="background-image:url({{img_senling}});background-size:100% 100%;" plain="true" bindtap="senlingQuiz">
+  <view class='stpryModeChoicePart' style="color:white">森林王国</view>
+</button>
+<button  class='stpryModeChoice' style="background-image:url({{img_xuedi}});background-size:100% 100%;" plain="true" bindtap="xuediQuiz">
+  <view class='stpryModeChoicePart' style="color:#e6e6e6">冰天雪地</view>
+</button>
+
+

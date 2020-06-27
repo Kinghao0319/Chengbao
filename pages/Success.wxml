@@ -1,0 +1,11 @@
+<view class="root">
+  <image class='background-image' src='http://m.qpic.cn/psc?/V11OvXuF27jUFT/riQ3veziueHEEyvCcu4t01MUk14TDxld96Nhd4L07VISZxdqQBh6aspEELw1chJTvdSvPsmTjEsYlaImNTr*L9evCSVHyDEnW9sHIyXOaKE!/b&bo=wwKJAsMCiQIDSWw!&rf=viewer_4' mode="aspectFill"></image>
+  <view class="content">
+  </view>
+  <button class="connectBar center" bindtap="goMenu">
+  
+   
+    <view class="btnText">继续挑战</view>
+  
+  </button>
+</view>

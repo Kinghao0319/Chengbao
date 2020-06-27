@@ -1,0 +1,68 @@
+
+<view class="c_tab"></view>
+<view class="c_tab"></view>
+<view class="c_tab"></view>
+<view class="title">　呼叫程橙狐</view>
+<view class="container">
+  <view class="dd">
+    <view class="tr" wx:for="{{3}}" wx:for-item="i" wx:key="*this">
+      <view class="td {{(i==start_i&&j==start_j)?'Start':'Map'}} {{(i==end_i&&j==end_j)?'End':'Map'}} {{(i==wayPoint_i&&j==wayPoint_j)?'WayPoint':'Map'}}" wx:for="{{3}}" wx:for-item="j" wx:key="*this" id="{{i}},{{j}}"></view>
+    </view>
+  </view>
+</view>
+<view class="container-left">
+  <view class="row">
+    <view class="row view-center">
+      <view class="Start pointBlock"></view>
+      <view class="text-center">起点　</view>
+    </view>
+    <view class="row view-center">
+      <view class="End pointBlock"></view>
+      <view class="text-center">宝箱　</view>
+    </view>
+
+  </view>
+
+  <view>
+  
+ <view class="story hint" >
+提示：
+</view>
+  <view class="story hint">
+  开动小车，向宝箱前进吧。
+  </view>
+  </view>
+  <view class="blank"></view>
+  <view class="row-center">
+    <view class="divLine"></view>
+  </view>
+  <view class="blank"></view>
+  <view>
+    <view class="row view-center">
+      <text class="text-view" style="font-size: 150%">记录\n</text>
+      <view class="r_tab"></view>
+      <view class="row view-center" wx:if="{{right}}">
+        <image src="../../image/right.png" class="right-wrong"></image>
+        <view>恭喜通过挑战！</view>
+      </view>
+      <view hidden="{{right}}" class="row view-center" wx:else>
+        <image src="../../image/wrong.png" class="right-wrong"></image>
+        <view>挑战失败，继续努力！</view>
+      </view>
+    </view>
+    <view class="blank"></view>
+    <view class="tr-record" wx:for="{{len}}" wx:for-item="i" wx:key="*this">
+      <view class="td-record shadow view-center view-r-center" id="{{i}},{{0}}">
+        <view class="record-data">{{path[i].op}}</view>
+      </view>
+      <view class="td-record shadow view-center view-r-center" id="{{i}},{{1}}">
+        <view class="record-data">{{path[i].step}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="row">
+  <button class="recordBtn" bindtap="aa">继续挑战</button>
+  <button class="recordBtn" bindtap="dd">回到菜单</button>
+</view>
+<view class="c_tab"></view>

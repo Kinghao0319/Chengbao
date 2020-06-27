@@ -1,0 +1,6 @@
+{
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "img-btn-cmp": "/components/image-button/index"
+  }
+}

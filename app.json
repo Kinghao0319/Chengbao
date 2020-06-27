@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/connect/connect",
+    "pages/storyMode/storyMode",
+    "pages/more/more",
+    "pages/Modes/senlingMode/senlingMode",
+    "pages/Modes/haiyangMode/haiyangMode",
+    "pages/Modes/xuediMode/xuediMode",
+    "pages/record/record",
+    "pages/quiz1/quiz1",
+    "pages/quiz2/quiz2",
+    "pages/quiz6/quiz6",
+    "pages/record two people/record",
+    "pages/Success",
+    "pages/Fail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#54398A",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/storyMode/storyMode",
+        "text": "题库",
+        "iconPath": "image/icons/storymode_unselected.png",
+        "selectedIconPath": "image/icons/storymode_selected.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "我的",
+        "iconPath": "image/icons/my_unselected.png",
+        "selectedIconPath": "image/icons/my_selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,7 @@
+<!--pages/connect/connect.wxml-->
+<button class="connectBar center" bindtap="tempTap">
+  <view class="col">
+    <image class="btnImg" src="../../image/connect.jpg"></image>
+    <view class="btnText">连接小车</view>
+  </view>
+</button>

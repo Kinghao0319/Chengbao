@@ -1,0 +1,62 @@
+<view class="c_tab"></view>
+<view class="title">　绕开那只螃蟹</view>
+<view class="container">
+  <view class="dd">
+    <view class="tr" wx:for="{{9}}" wx:for-item="i" wx:key="*this">
+      <view class="td {{(i==start_i&&j==start_j)?'Start':'Map'}} {{(i==end_i&&j==end_j)?'End':'Map'}} {{(i==wayPoint_i1&&j==wayPoint_j1)?'WayPoint':'Map'}} {{(i==wayPoint_i2&&j==wayPoint_j2)?'WayPoint':'Map'}} {{(i==wayPoint_i3&&j==wayPoint_j3)?'WayPoint':'Map'}} {{(i==shark_i1&&j==shark_j1)?'shark':'Map'}} {{(i==shark_i2&&j==shark_j2)?'shark':'Map'}} {{(i==shark_i3&&j==shark_j3)?'shark':'Map'}} {{(i==shark_i4&&j==shark_j4)?'shark':'Map'}} {{(i==shark_i5&&j==shark_j5)?'shark':'Map'}} {{(i==crab_i&&j==crab_j1)?'crab':'Map'}} {{(i==crab_i&&j==crab_j2)?'crab':'Map'}} {{(i==crab_i&&j==crab_j3)?'crab':'Map'}} {{(i==crab_i&&j==crab_j4)?'crab':'Map'}} {{(i==crab_i&&j==crab_j5)?'crab':'Map'}} {{(i==crab_i&&j==crab_j6)?'crab':'Map'}} {{(i==crab_i&&j==crab_j7)?'crab':'Map'}}" wx:for="{{9}}" wx:for-item="j" wx:key="*this" id="{{i}},{{j}}" bindtap="whoami"></view>
+    </view>
+  </view>
+</view>
+<view class="container-left">
+  <view class="row">
+    <view class="row view-center">
+      <view class="Start pointBlock"></view>
+      <view class="text-center">起点　</view>
+    </view>
+    <view class="row view-center">
+      <view class="End pointBlock"></view>
+      <view class="text-center">海洋之冠　</view>
+    </view>
+  </view>
+  <view class="row">
+    <view class="row view-center">
+      <view class="WayPoint pointBlock"></view>
+      <view class="text-center">加油站　</view>
+    </view>
+    <view class="row view-center">
+      <view class="crab pointBlock"></view>
+      <view class="text-center">螃蟹　</view>
+    </view>
+    <view class="row view-center">
+      <view class="shark pointBlock"></view>
+      <view class="text-center">鲨鱼　</view>
+    </view>
+  </view>
+  <view>
+    <text class="text-view" style="font-size: 150%">故事\n</text>
+    <view class="blank"></view>
+    <view class="story">
+      　　海龟果然是居住在这海底200百年的老居民，这蔚蓝海洋里还有他不知道的事吗？程橙狐觉得自己能有海龟的帮助实在是太幸运了，快乐地扭着屁股，把速
+度开到最大迈，打算全速前进，一举拿下海洋之冠！哐哐哐，哐哐哐，小车发出了奇怪的声音。程橙狐听到后，一拍脑门，“坏了！就快没有油了！”他向海龟爷爷投去求助的目光。只见海龟爷爷摸摸胡须，在地图上画了三个圈：“这里、这里还有那里都可以加油。”程橙狐谢过海龟爷爷急切地想要接过地图。“慢着！”海龟爷爷又说话了，“只不过这附近有一个缠人的螃蟹，还有凶猛的鲨鱼，我们得小心一点。”程橙狐有些担心，但他相信一定有办法绕开他们。</view>
+<view class="story hint" >
+提示：
+</view>
+  <view class="story hint">
+  螃蟹图标是螃蟹活动范围，鲨鱼图标是鲨鱼活动范围，请想想办法，绕开螃蟹和鲨鱼，先去加油，再去取海洋之冠哦！
+  </view>
+  </view>
+  <view class="blank"></view>
+  <view class="row-center">
+    <view class="divLine"></view>
+  </view>
+  <view class="blank"></view>
+</view>
+<button class="RunBtn" bindtap="goRecord">
+  <view class="row">
+    <view class="c1">冲</view>
+    <view class="c2">冲</view>
+    <view class="c3">冲</view>
+  </view>
+</button>
+
+<view class="c_tab"></view>
