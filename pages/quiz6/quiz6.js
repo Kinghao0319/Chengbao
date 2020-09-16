@@ -44,12 +44,21 @@ Page({
   whoami(e){
     console.log(e.currentTarget)
   },
-  goRecord() {
+  goRecord1(){
     wx.navigateTo({
       url: "../record/record",
-      success: function (res) { },
-      fail: function (res) { },
-      complete: function (res) { },
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+
+  goRecord2(){
+    wx.navigateTo({
+      url: "../record two people/record",
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
     })
   }
 

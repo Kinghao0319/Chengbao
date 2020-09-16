@@ -14,7 +14,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.7.1",
 	"appid": "wx9a5da57b9d23b064",
-	"projectname": "chenBao",
+	"projectname": "chenBao8_2",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
@@ -82,15 +82,22 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/Success",
-					"pathName": "pages/Success",
+					"name": "pages/quiz3/quiz3",
+					"pathName": "pages/quiz3/quiz3",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "pages/Fail",
-					"pathName": "pages/Fail",
+					"name": "pages/quiz4/quiz4",
+					"pathName": "pages/quiz4/quiz4",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/quiz5/quiz5",
+					"pathName": "pages/quiz5/quiz5",
 					"scene": null
 				}
 			]

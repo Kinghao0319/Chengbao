@@ -1,11 +1,11 @@
 <view class="c_tab"></view>
-<button  class='stpryModeChoice' style="background-image:url({{img_haiyang}});background-size:100% 100%;" plain="true" bindtap="haiyangQuiz">
+<button  class='stpryModeChoice' style="background-image:url(http://m.qpic.cn/psc?/V11OvXuF27jUFT/bqQfVz5yrrGYSXMvKr.cqZvOPVqhNi24oB2bKkzxn9VjisGy*OiKPtdatN5HXt3*gC5J.Gcy6hGZFC*A*nltywU2tZuucOZjqWbHQ4XQL1o!/b&bo=gAe8AgAAAAABBxk!&rf=viewer_4);background-size:100% 100%;" plain="true" bindtap="haiyangQuiz">
   <view class='stpryModeChoicePart'>蔚蓝海洋</view>
 </button>
-<button  class='stpryModeChoice' style="background-image:url({{img_senling}});background-size:100% 100%;" plain="true" bindtap="senlingQuiz">
+<button  class='stpryModeChoice' style="background-image:url(http://m.qpic.cn/psc?/V11OvXuF27jUFT/TmEUgtj9EK6.7V8ajmQrEMtQTJSj8yA8DOi0fgrn2KGweTIuPHhvb5DQXGpLERqFBIL0eHDhUORTuqI3uVC5plbPUbhKj5hjuzMc5suQgSE!/b&bo=gAe8AgAAAAABFwk!&rf=viewer_4);background-size:100% 100%;" plain="true" bindtap="senlingQuiz">
   <view class='stpryModeChoicePart' style="color:white">森林王国</view>
 </button>
-<button  class='stpryModeChoice' style="background-image:url({{img_xuedi}});background-size:100% 100%;" plain="true" bindtap="xuediQuiz">
+<button  class='stpryModeChoice' style="background-image:url(http://m.qpic.cn/psc?/V11OvXuF27jUFT/TmEUgtj9EK6.7V8ajmQrEJNWNt67LKIhEWUIXfCMP8i.lADG4eArR8luSICE3CFPR*pAzgIOWoNqQvN9X8OXbQJu*I4N1j4Ix4Oqqz7GA6w!/b&bo=gAe8AgAAAAABFwk!&rf=viewer_4);background-size:100% 100%;" plain="true" bindtap="xuediQuiz">
   <view class='stpryModeChoicePart' style="color:#e6e6e6">冰天雪地</view>
 </button>
 

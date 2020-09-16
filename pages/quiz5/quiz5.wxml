@@ -1,0 +1,70 @@
+<view class="c_tab"></view>
+<view class="title">　绕开那只螃蟹</view>
+<view class="container">
+  <view class="dd">
+     <view class="tr" wx:for="{{8}}" wx:for-item="i" wx:key="*this">
+      <view class="td {{(i==start_i&&j==start_j)?'Start':'Map'}} {{(i==end_i&&j==end_j)?'End':'Map'}}  {{(i==crab_i1&&j==crab_j)?'crab':'Map'}}    {{(i==crab_i2&&j==crab_j)?'crab':'Map'}}    {{(i==crab_i3&&j==crab_j)?'crab':'Map'}}    {{(i==crab_i4&&j==crab_j)?'crab':'Map'}}  {{(i==shark_i&&j==shark_j1)?'shark':'Map'}}   {{(i==shark_i&&j==shark_j2)?'shark':'Map'}}   {{(i==shark_i&&j==shark_j3)?'shark':'Map'}}   {{(i==shark_i&&j==shark_j4)?'shark':'Map'}}   {{(i==shark_i&&j==shark_j5)?'shark':'Map'}}  {{(i==wayPoint_i1&&j==wayPoint_j1)?'WayPoint':'Map'}} {{(i==wayPoint_i2&&j==wayPoint_j2)?'WayPoint':'Map'}}  " 
+      wx:for="{{8}}" wx:for-item="j" wx:key="*this" id="{{i}},{{j}}" bindtap="{{mapSet}}"></view></view>
+    </view>
+  </view>
+
+<view class="container-left">
+  <view class="row">
+    <view class="row view-center">
+      <view class="Start pointBlock"></view>
+      <view class="text-center">起点　</view>
+    </view>
+    <view class="row view-center">
+      <view class="End pointBlock"></view>
+      <view class="text-center">终点　</view>
+    </view>
+  </view>
+  <view class="row">
+        <view class="row view-center">
+      <view class="crab pointBlock"></view>
+      <view class="text-center">海草　</view>
+    </view> 
+     <view class="row view-center">
+      <view class="WayPoint pointBlock"></view>
+      <view class="text-center">加油站　</view>
+    </view>
+      <view class="row view-center">
+      <view class="shark pointBlock"></view>
+      <view class="text-center">鲨鱼　</view>
+    </view> </view> 
+  <view>
+    <text class="text-view" style="font-size: 150%">故事\n</text>
+    <view class="blank"></view>
+    <view class="story">
+      　　程橙狐小心翼翼地驾驶着改造好的小车，向着地图上标记的宝藏出发了。可是这是程橙狐第一次进入大海，环境对他来说十分陌生，没过多久他就在海底迷路了。正当他一直在原地打转的时候，突然看到一只年纪很大了的海龟颤颤巍巍地向自己走过来。程橙狐马上戴好氧气头盔从车里出来，扶住了快要摔倒的海龟，关切地问：“海龟爷爷，你怎么了，有什么需要我帮助你的地方吗？”海龟爷爷喘了喘气，说：“我年纪大了，走不动路了，你能载我一程吗？”程橙狐想到爸爸妈妈教育他要尊老爱幼，就一口答应下来，扶着海龟上了车。突然，程橙狐想到，海龟爷爷一直在海底生活，应该对地形很熟悉，说不定他知道宝藏的地点？</view>
+<view class="story hint" >
+提示：
+</view>
+  <view class="story hint">
+  海草图标是海草所在范围，鲨鱼图标是鲨鱼活动范围，躲避海草、鲨鱼等障碍物，到达终点~
+  </view>
+  </view>
+  <view class="blank"></view>
+  <view class="row-center">
+    <view class="divLine"></view>
+  </view>
+  <view class="blank"></view>
+</view>
+<button class="RunBtn" bindtap="goRecord1">
+  <view class="row">
+    <view class="c2">单</view>
+    <view class="c2">人</view>
+    <view class="c2">游</view>
+    <view class="c2">戏</view>
+  </view>
+</button>
+<button class="RunBtn" bindtap="goRecord2">
+  <view class="row">
+    <view class="c1">双</view>
+    <view class="c1">人</view>
+    <view class="c1">游</view>
+    <view class="c1">戏</view>
+  </view>
+</button>
+
+<view class="c_tab"></view>

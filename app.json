@@ -9,10 +9,12 @@
     "pages/record/record",
     "pages/quiz1/quiz1",
     "pages/quiz2/quiz2",
+    "pages/quiz3/quiz3",
+    "pages/quiz4/quiz4",
+    "pages/quiz5/quiz5",
     "pages/quiz6/quiz6",
     "pages/record two people/record",
-    "pages/Success",
-    "pages/Fail"
+    "pages/Success"
   ],
   "window": {
     "backgroundTextStyle": "light",

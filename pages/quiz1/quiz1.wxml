@@ -33,7 +33,7 @@
  <view class="blank"></view>
 </view>
   <view class="story hint">
-  提示：开动小车，向宝箱前进吧。
+  提示：开动小车，向宝箱前进吧~
   </view>
   </view>
   <view class="blank"></view>
@@ -58,20 +58,6 @@
     <view class="c1">人</view>
     <view class="c1">游</view>
     <view class="c1">戏</view>
-  </view>
-</button>
-<button class="RunBtn" bindtap="goSuccess">
-  <view class="row">
-    <view class="c2">完</view>
-    <view class="c3">成</view>
-    <view class="c1">啦</view>
-  </view>
-</button>
-<button class="RunBtn" bindtap="goFail">
-  <view class="row">
-    <view class="c3">未</view>
-    <view class="c1">完</view>
-    <view class="c2">成</view>
   </view>
 </button>
 

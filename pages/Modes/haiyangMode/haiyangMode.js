@@ -80,6 +80,33 @@ Page({
     })
   },
 
+  quiz3() {
+    wx.navigateTo({
+      url: '../../quiz3/quiz3',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+
+  quiz4() {
+    wx.navigateTo({
+      url: '../../quiz4/quiz4',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+
+  quiz5() {
+    wx.navigateTo({
+      url: '../../quiz5/quiz5',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+  
   quiz6() {
     wx.navigateTo({
       url: '../../quiz6/quiz6',

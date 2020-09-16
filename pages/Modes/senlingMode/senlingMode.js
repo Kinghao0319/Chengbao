@@ -63,5 +63,58 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+
+  quiz1(){
+    wx.navigateTo({
+      url: '../../quiz1/quiz1',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+  quiz2() {
+    wx.navigateTo({
+      url: '../../quiz2/quiz2',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+
+  quiz3() {
+    wx.navigateTo({
+      url: '../../quiz3/quiz3',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+
+  quiz4() {
+    wx.navigateTo({
+      url: '../../quiz4/quiz4',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+
+  quiz5() {
+    wx.navigateTo({
+      url: '../../quiz5/quiz5',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
+  },
+  
+  quiz6() {
+    wx.navigateTo({
+      url: '../../quiz6/quiz6',
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
   }
 })

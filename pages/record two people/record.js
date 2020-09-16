@@ -137,6 +137,12 @@ Page({
     var that = this;
     console.log("倒计时暂停")
     that.clearTimeInterval(that)
+    wx.navigateTo({
+      url: "../Success",
+      success: function (res) { },
+      fail: function (res) { },
+      complete: function (res) { },
+    })
   },
   
   /**

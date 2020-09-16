@@ -101,7 +101,7 @@ word-wrap: break-word
 }
 
 .text-center{
-  color: rgb(219, 145, 145); 
+  color: rgb(87, 87, 87); 
   height: min-content;
   font-weight: bolder;
 }

@@ -1,0 +1,62 @@
+<view class="c_tab"></view>
+<view class="title">　一张藏宝图</view>
+<view class="container">
+  <view class="dd">
+     <view class="tr" wx:for="{{5}}" wx:for-item="i" wx:key="*this">
+      <view class="td {{(i==start_i&&j==start_j)?'Start':'Map'}} {{(i==end_i&&j==end_j)?'End':'Map'}} {{(i==crab_i1&&j==crab_j1)?'crab':'Map'}}  {{(i==crab_i1&&j==crab_j2)?'crab':'Map'}}  {{(i==crab_i1&&j==crab_j3)?'crab':'Map'}}  {{(i==crab_i2&&j==crab_j2)?'crab':'Map'}} {{(i==crab_i3&&j==crab_j2)?'crab':'Map'}}  {{(i==crab_i4&&j==crab_j2)?'crab':'Map'}}" 
+      wx:for="{{5}}" wx:for-item="j" wx:key="*this" id="{{i}},{{j}}" bindtap="{{mapSet}}"></view></view>
+    </view>
+  </view>
+
+<view class="container-left">
+  <view class="row">
+    <view class="row view-center">
+      <view class="Start pointBlock"></view>
+      <view class="text-center">起点　</view>
+    </view>
+    <view class="row view-center">
+      <view class="End pointBlock"></view>
+      <view class="text-center">终点　</view>
+    </view>
+  </view>
+  <view class="row">
+        <view class="row view-center">
+      <view class="crab pointBlock"></view>
+      <view class="text-center">石头　</view>
+    </view> </view>
+  <view>
+    <text class="text-view" style="font-size: 150%">故事\n</text>
+    <view class="blank"></view>
+    <view class="story">
+      　　程橙狐终于平安地与爸爸妈妈汇合了，他一跳下车子就迫不及待地问道：“爸爸妈妈，你们要送给我的生日礼物到底是什么呀？快告诉我吧！”爸爸看他这么急切，笑了笑，把一个小盒子递给他，说：“打开看看你就知道啦。”程橙狐小心翼翼地打开盒子，发现里面是一张古老的海洋之冠藏宝图。程橙狐实在是太开心了，因为他最喜欢的就是探险寻宝啦！妈妈看孩子这么高兴，忍不住叮嘱道：“寻宝路上可一定要注意安全，一定要平平安安地回来啊！”“放心吧，妈妈”，程橙狐自信地说，“您就等我的好消息吧！”说完，程橙狐就跳上车子出发了。</view>
+<view class="story hint" >
+提示：
+</view>
+  <view class="story hint">
+  告别爸爸妈妈，开启寻宝之旅，注意避开石头等障碍物哦~
+  </view>
+  </view>
+  <view class="blank"></view>
+  <view class="row-center">
+    <view class="divLine"></view>
+  </view>
+  <view class="blank"></view>
+</view>
+<button class="RunBtn" bindtap="goRecord1">
+  <view class="row">
+    <view class="c2">单</view>
+    <view class="c2">人</view>
+    <view class="c2">游</view>
+    <view class="c2">戏</view>
+  </view>
+</button>
+<button class="RunBtn" bindtap="goRecord2">
+  <view class="row">
+    <view class="c1">双</view>
+    <view class="c1">人</view>
+    <view class="c1">游</view>
+    <view class="c1">戏</view>
+  </view>
+</button>
+
+<view class="c_tab"></view>

@@ -51,11 +51,20 @@
   </view>
   <view class="blank"></view>
 </view>
-<button class="RunBtn" bindtap="goRecord">
+<button class="RunBtn" bindtap="goRecord1">
   <view class="row">
-    <view class="c1">冲</view>
-    <view class="c2">冲</view>
-    <view class="c3">冲</view>
+    <view class="c2">单</view>
+    <view class="c2">人</view>
+    <view class="c2">游</view>
+    <view class="c2">戏</view>
+  </view>
+</button>
+<button class="RunBtn" bindtap="goRecord2">
+  <view class="row">
+    <view class="c1">双</view>
+    <view class="c1">人</view>
+    <view class="c1">游</view>
+    <view class="c1">戏</view>
   </view>
 </button>
 

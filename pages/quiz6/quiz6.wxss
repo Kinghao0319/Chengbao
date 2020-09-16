@@ -12,8 +12,8 @@
   padding-left: 5%;
 }
 .dd{
-  background-color: #F3F4F6;
-  padding: 15px;
+  background-color: rgb(226, 121, 126);
+  padding: 10px;
 }
 .tr {
   display: flex;
@@ -112,10 +112,16 @@ word-wrap: break-word
 }
 
 .text-center{
-  color: #A9A9A9; 
+  color: rgb(87, 87, 87); 
   height: min-content;
+  font-weight: bolder;
+} 
+.c1{
+  color:rgb(122, 156, 208);
 }
-
+.c2{
+  color:rgb(230, 127, 127);
+}
 .view-center{
   display: flex;
   align-items: center
